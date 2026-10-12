@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Flux | Case Study - Feroz Afzal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Feroz Afzal<span>.</span></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" style="padding-top: 60px;">
+        <!-- PROJECT HEADER -->
+        <div class="case-header">
+            <a href="index.html" style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 16px; display: inline-block;">← Back to Portfolio</a>
+            <h1>Hover Flux</h1>
+            <div class="case-meta">
+                <span>Status: Completed (March 2026)</span>
+                <span>Engine: Unity</span>
+                <span>Role: Solo Developer (01 Theory)</span>
+                <span>Platforms: PC Browser, PC Download, Mobile</span>
+            </div>
+        </div>
+
+        <!-- MAIN MEDIA -->
+               <!-- MAIN MEDIA GALLERY -->
+        <div class="case-section">
+            <h2>Gameplay Media</h2>
+            <p style="color: var(--text-muted); margin-bottom: 16px;">
+                Authentic gameplay footage and screenshots from the completed 10-level build.
+            </p>
+            
+            <div class="gallery-grid">
+                <!-- Image 1: Spans full width (Hero shot) -->
+                <img src="assets/images/hover-flux-01.png?" alt="Hover Flux Main Gameplay">
+                
+                <!-- Image 2 -->
+                <img src="assets/images/hover-flux-02.png" alt="Hover Flux Level Design">
+                
+                <!-- Image 3 -->
+                <img src="assets/images/hover-flux-03.png" alt="Hover Flux Optimization Example">
+                
+                <!-- Image 4 (Add or remove as needed) -->
+                <img src="assets/images/hover-flux-04.png" alt="Hover Flux Mobile Performance">
+            </div>
+
+              <!-- YOUTUBE VIDEO EMBED -->
+            <div class="media-container" style="margin-top: 24px;">
+                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                    <!-- REPLACE 'YOUR_VIDEO_ID_HERE' WITH YOUR ACTUAL YOUTUBE VIDEO ID -->
+                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                            src="https://www.youtube.com/embed/7VmyxY0HouY" 
+                            title="Cores and Scrap Gameplay" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="media-caption">// Authentic gameplay footage from the playable demo</div>
+            </div>
+        </div>
+
+        <!-- CASE STUDY CONTENT -->
+        <div class="case-section">
+            <h2>Project Overview</h2>
+          <p>Hover Flux marks a major milestone as my first fully completed and released mobile game. Beyond just finishing the project, it served as a critical learning ground for mobile performance optimization.</p>
+            <p>During development, I learned the importance of material batching specifically, why assigning a unique material to every single game object destroys performance. I applied this foundational knowledge directly to my current project, <em>Cores & Scrap</em>, by utilizing shared materials to keep draw calls low.</p>
+            <p>I also developed a strict 3D modeling workflow for polygon control. I learned to model assets by first capturing the exact visual silhouette and design intent I wanted, and then systematically optimizing the topology and polygon count to meet mobile performance targets without sacrificing the core aesthetic.</p>
+        </div>
+
+        <div class="case-section">
+            <h2>My Role & Responsibilities</h2>
+            <p>As the solo developer under the 01 Theory identity, I handled the entire development pipeline. This included gameplay implementation, level development, performance profiling, rigorous testing, and preparing final playable builds for distribution.</p>
+        </div>
+
+        <div class="case-section">
+            <h2>Technical Challenge: 3D Environment Optimization</h2>
+            <p>One of the most significant technical hurdles was optimizing a complex tunnel environment to ensure smooth performance on lower-end mobile devices.</p>
+            <ul>
+                <li><strong>The Problem:</strong> The initial tunnel asset had a high polygon count, causing frame rate drops on mobile hardware.</li>
+                <li><strong>The Solution:</strong> I systematically reduced the triangle count of the tunnel environment from approximately 20,000 down to 1,863, while maintaining the visual integrity of the level. I also optimized draw calls, achieving a batch count of around 500 for the scene.</li>
+                <li><strong>The Result:</strong> On a Tecno Spark 30C test device, the optimized build consistently achieved approximately 40–50+ FPS, transforming the game from a stuttering experience into a smooth, playable mobile game.</li>
+            </ul>
+        </div>
+
+        <div class="case-section">
+            <h2>Lessons Learned</h2>
+            <p>This project taught me the critical importance of profiling early and often. I learned that creative level design must always be balanced with technical limitations, especially for mobile platforms. Iterating on performance is just as important as iterating on gameplay.</p>
+        </div>
+
+        <div class="case-section" style="text-align: center; margin-top: 60px;">
+            <a href="https://01-theory.itch.io/hover-flux-web-version" target="_blank" class="btn">Play Hover Flux on itch.io</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Feroz Afzal / 01 Theory. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

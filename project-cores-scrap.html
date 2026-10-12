@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores & Scrap Roguelite | Case Study - Feroz Afzal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Feroz Afzal<span>.</span></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" style="padding-top: 60px;">
+        <!-- PROJECT HEADER -->
+        <div class="case-header">
+            <a href="index.html" style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 16px; display: inline-block;">← Back to Portfolio</a>
+            <h1>Cores & Scrap Roguelite</h1>
+            <div class="case-meta">
+                <span>Status: In Development (Playable Demo)</span>
+                <span>Engine: Unity</span>
+                <span>Role: Solo Developer (01 Theory)</span>
+                <span>Target Platform: Android</span>
+            </div>
+        </div>
+
+                <!-- MAIN MEDIA GALLERY & VIDEO -->
+        <div class="case-section">
+            <h2>Gameplay Media</h2>
+            <p style="color: var(--text-muted); margin-bottom: 16px;">
+                Screenshots and gameplay footage from the current playable demo.
+            </p>
+            
+            <!-- IMAGE GALLERY -->
+            <div class="gallery-grid">
+                <!-- Image 1: Spans full width (Hero shot) -->
+                <img src="assets/images/cores-scrap-01.png" alt="Cores and Scrap Main Gameplay">
+                
+                <!-- Image 2 -->
+                <img src="assets/images/cores-scrap-02.png" alt="Cores and Scrap Vehicle Combat">
+                
+                <!-- Image 3 -->
+                <img src="assets/images/cores-scrap-03.png" alt="Cores and Scrap Progression UI">
+                 <!-- Image 4 -->
+                <img src="assets/images/cores-scrap-04.png" alt="Cores and Scrap Progression UI">
+                 <!-- Image 5 -->
+                <img src="assets/images/cores-scrap-05.png" alt="Cores and Scrap Progression UI">
+                
+                <!-- Add or remove image tags here if you have more or fewer than 3 -->
+            </div>
+
+            <!-- YOUTUBE VIDEO EMBED -->
+            <div class="media-container" style="margin-top: 24px;">
+                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                    <!-- REPLACE 'YOUR_VIDEO_ID_HERE' WITH YOUR ACTUAL YOUTUBE VIDEO ID -->
+                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                            src="https://www.youtube.com/embed/g1uj7nUfr-g" 
+                            title="Cores and Scrap Gameplay" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="media-caption">// Authentic gameplay footage from the playable demo</div>
+            </div>
+        </div>
+
+        <!-- CASE STUDY CONTENT -->
+        <div class="case-section">
+            <h2>Project Overview</h2>
+            <p>Cores & Scrap Roguelite is my ongoing solo game development project soon publish on Play store. It is an isometric shooter built around vehicle-based combat, room encounters, resource collection, and deep progression. The game features a lowpoly industrial visual style with machinery, platforms, and atmospheric  lighting effects.</p>
+        </div>
+
+        <div class="case-section">
+            <h2>My Role & Gameplay Systems</h2>
+            <p>As the sole developer, my focus has been on designing and implementing interconnected gameplay systems that work together seamlessly. Key implemented features include:</p>
+            <ul>
+                <li><strong>Vehicle Mechanics:</strong> Custom movement, health, and drifting physics  for an isometric perspective.</li>
+                <li><strong>Combat & Weapons:</strong> Modular turret/weapon systems featuring Assault, LMG, SMG, Shotgun, and Sniper variants.</li>
+                <li><strong>Progression & Economy:</strong> A dual-currency system (Scrap and Cores) driving vehicle selection, garage progression, and weapon upgrades.</li>
+                <li><strong>Level Design:</strong> Room-based enemy encounters and zone-based level progression.</li>
+                <li><strong>Platform Specifics:</strong> Dedicated mobile control options and UI scaling for Android devices.</li>
+            </ul>
+        </div>
+
+        <div class="case-section">
+            <h2>Technical Challenges</h2>
+            <p>The primary challenge of this project has been managing the complexity of interconnected systems. Unlike isolated mechanics, a roguelite requires the economy, upgrade system, enemy AI, and vehicle physics to communicate flawlessly. I approached this by building modular C# clear clean scripts without depend on script to other, allowing me to iterate on weapon balance or enemy behavior without breaking the core progression loop.</p>
+        </div>
+
+        <div class="case-section">
+            <h2>Development Results & Next Steps</h2>
+            <p>The project successfully reached a milestone with a playable demo published on itch.io in September 2026. This demo validates the core gameplay loop and mobile controls. Current development is focused on expanding the weapon roster, refining enemy encounter variety, and further optimizing the URP pipeline for a wider range of Android devices.</p>
+        </div>
+
+        <div class="case-section" style="text-align: center; margin-top: 60px;">
+            <a href="https://01-theory.itch.io/cores-scrap-roguelite" target="_blank" class="btn">Play the Demo on itch.io</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Feroz Afzal / 01 Theory. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Feroz Haider | Game Developer</title>
+    <meta name="description" content="Feroz Haider (Zoref), solo indie game developer working in Unity and C#. Founder of 01 Theory.">
+    <meta name="theme-color" content="#070505">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+<div class="screen">
+
+    <!-- TOP HUD BAR -->
+    <div class="hud-top">
+        <a class="studio" href="#projects"><span class="studio-mark" aria-hidden="true"></span>01 Theory</a>
+        <span class="player">Player: <b>Zoref</b></span>
+    </div>
+
+    <main class="stage">
+
+        <!-- LEFT: title + menu -->
+        <div class="title">
+            <h1 class="hud-title">Feroz Haider</h1>
+            <p class="tagline">Turning creative ideas into playable, optimized experiences.</p>
+            <p class="role">Solo indie game developer and systems designer. Unity, C#, gameplay programming. Founder of 01 Theory.</p>
+
+            <nav class="menu" aria-label="Main menu">
+                <ul role="tablist" aria-orientation="vertical">
+                    <li role="presentation" style="--i:0"><a role="tab" id="tab-projects" href="#projects" aria-controls="projects" aria-selected="true"><span class="m-label">Projects</span><span class="m-hint">Hover Flux and Cores &amp; Scrap</span></a></li>
+                    <li role="presentation" style="--i:1"><a role="tab" id="tab-art" href="#art" aria-controls="art" aria-selected="false" tabindex="-1"><span class="m-label">3D Art</span><span class="m-hint">Modeling, interiors and renders</span></a></li>
+                    <li role="presentation" style="--i:2"><a role="tab" id="tab-about" href="#about" aria-controls="about" aria-selected="false" tabindex="-1"><span class="m-label">About</span><span class="m-hint">Who I am and what 01 Theory is</span></a></li>
+                    <li role="presentation" style="--i:3"><a role="tab" id="tab-skills" href="#skills" aria-controls="skills" aria-selected="false" tabindex="-1"><span class="m-label">Skills</span><span class="m-hint">Tools, strengths and experience</span></a></li>
+                    <li role="presentation" style="--i:4"><a role="tab" id="tab-community" href="#community" aria-controls="community" aria-selected="false" tabindex="-1"><span class="m-label">Community</span><span class="m-hint">Devlogs, videos and social media</span></a></li>
+                    <li role="presentation" style="--i:5"><a role="tab" id="tab-contact" href="#contact" aria-controls="contact" aria-selected="false" tabindex="-1"><span class="m-label">Contact</span><span class="m-hint">Let's talk about a project</span></a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- RIGHT: panels -->
+        <div class="frame">
+            <div class="panels">
+
+                <!-- PROJECTS -->
+                <section id="projects" class="panel is-active" role="tabpanel" aria-labelledby="tab-projects" tabindex="-1">
+                    <h2>Selected projects</h2>
+
+                     <article class="project">
+                        <div class="thumb">
+                            <img src="assets/images/cores-scrap-01.png" alt="Cores and Scrap gameplay screenshot" loading="lazy" onerror="this.parentNode.hidden=true">
+                        </div>
+                        <div class="info">
+                            <div class="tags"><span class="tag hot">In development</span><span class="tag">Playable demo</span><span class="tag">Android</span></div>
+                            <h3>Cores &amp; Scrap Roguelite</h3>
+                            <p>An isometric vehicle-based shooter featuring interconnected gameplay systems, weapon progression, room-based encounters, and mobile-optimized controls.</p>
+                            <div class="actions">
+                                <a class="btn" href="project-cores-scrap.html">View case study</a>
+                                <a class="btn btn-outline" href="https://01-theory.itch.io/cores-scrap-roguelite" target="_blank" rel="noopener">Play the demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <div class="thumb">
+                            <img src="assets/images/hover-flux-01.png" alt="Hover Flux gameplay screenshot" loading="lazy" onerror="this.parentNode.hidden=true">
+                        </div>
+                        <div class="info">
+                            <div class="tags"><span class="tag hot">Completed</span><span class="tag">March 2026</span><span class="tag">PC, browser, mobile</span></div>
+                            <h3>Hover Flux</h3>
+                            <p>A 10-level multi-platform game. Demonstrates practical experience in gameplay implementation, level development, and significant 3D environment optimization for mobile performance.</p>
+                            <div class="actions">
+                                <a class="btn" href="project-hover-flux.html">View case study</a>
+                                <a class="btn btn-outline" href="https://01-theory.itch.io/hover-flux-web-version" target="_blank" rel="noopener">Play on itch.io</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                    <div class="thumb">
+                      <img src="assets/images/find-escape-01.png" alt="Find Escape gameplay screenshot" loading="lazy" onerror="this.parentNode.hidden=true">
+                     </div>
+                     <div class="info">
+                          <div class="tags"><span class="tag hot">Released</span><span class="tag">2024</span><span class="tag">PC</span></div>
+                        <h3>Find Escape</h3>
+                       <p>My second released game: a dark maze where some of the stairs are broken. Find the door before time runs out.</p>
+                      <div class="actions">
+                       <a class="btn" href="project-find-escape.html">View case study</a>
+                          <!-- TODO: replace the href with the real link to the game on your other itch.io account -->
+                          <a class="btn btn-outline" href="https://zorefgamedev.itch.io/find-escape" target="_blank" rel="noopener">Play on itch.io</a>
+                         </div>
+                         </div>
+                  </article>
+              
+              
+                </section>
+
+                <!-- 3D ART -->
+                <section id="art" class="panel" role="tabpanel" aria-labelledby="tab-art" tabindex="-1">
+                    <h2>3D modeling &amp; renders</h2>
+                    <p>Before I moved into game development, I worked as a 3D modeler. That background is why I build my own game assets and keep polygon counts under control for mobile. Click any image to view it full size.</p>
+                    <!-- IMAGE FILES: put your renders in assets/images/3d/ with the names used below (or change the src paths) -->
+
+                    <div class="art-group">
+                        <h3>Food Hive:Commercial restaurant interior</h3>
+                        <div class="shots">
+                            <button type="button" class="shot wide" data-caption="Food Hive: 3D restaurant interior design">
+                                <img src="assets/images/food-hive-01.jpeg" alt="3D interior design of the Food Hive restaurant" loading="lazy" onerror="this.closest('.shot').hidden=true">
+                            </button>
+                            <!-- Optional: more Food Hive views. Tiles hide themselves if the image does not exist. -->
+                            <button type="button" class="shot" data-caption="Food Hive: 3D restaurant interior design">
+                                <img src="assets/images/food-hive-02.jpeg" alt="Food Hive restaurant interior, second view" loading="lazy" onerror="this.closest('.shot').hidden=true">
+                            </button>
+                            <button type="button" class="shot" data-caption="Food Hive: 3D restaurant interior design">
+                                <img src="assets/images/food-hive-03.jpeg" alt="Food Hive restaurant interior, third view" loading="lazy" onerror="this.closest('.shot').hidden=true">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="art-group">
+                        <h3>Weapon renders</h3>
+                        <div class="shots">
+                            <button type="button" class="shot wide" data-caption="Weapon render 1">
+                                <img src="assets/images/weapon-01.png" alt="3D weapon render, first of three" loading="lazy" onerror="this.closest('.shot').hidden=true">
+                            </button>
+                            <button type="button" class="shot" data-caption="Weapon render 2">
+                                <img src="assets/images/weapon-02.png" alt="3D weapon render, second of three" loading="lazy" onerror="this.closest('.shot').hidden=true">
+                            </button>
+                            <button type="button" class="shot" data-caption="Weapon render 3">
+                                <img src="assets/images/weapon-03.png" alt="3D weapon render, third of three" loading="lazy" onerror="this.closest('.shot').hidden=true">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="art-group">
+                        <h3>More renders</h3>
+                        <div class="shots">
+                            <button type="button" class="shot" data-caption="Lab render">
+                                <img src="assets/images/chess-01.png" alt="3D lab render" loading="lazy" onerror="this.closest('.shot').hidden=true">
+                                <span class="cap">Lab</span>
+                            </button>
+                            <button type="button" class="shot" data-caption="Buds render">
+                                <img src="assets/images/blue-building-01.png" alt="3D render of Buds" loading="lazy" onerror="this.closest('.shot').hidden=true">
+                                <span class="cap">building</span>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ABOUT -->
+                <section id="about" class="panel" role="tabpanel" aria-labelledby="tab-about" tabindex="-1">
+                    <h2>About me &amp; 01 Theory</h2>
+                    <p>I am Feroz Haider, a game developer who enjoys building complete game systems from the ground up. My work combines gameplay programming, level design, technical problem-solving, and performance optimization. I work independently, handling everything from implementing mechanics to testing builds and preparing games for release.</p>
+                    <p>Online, I share my development journey under the identity <strong>Zoref</strong>. My projects are developed and published under <strong>01 Theory</strong>, my independent game development studio identity. While currently a solo operation, 01 Theory represents my commitment to building a consistent, professional presence and my long-term ambition to grow it into a recognized studio.</p>
+                    <p>My development philosophy is simple: learn by building real projects, solve practical technical challenges, and prioritize completing playable experiences over endless ideation.</p>
+                </section>
+
+                <!-- SKILLS -->
+                <section id="skills" class="panel" role="tabpanel" aria-labelledby="tab-skills" tabindex="-1">
+                    <h2>Skills &amp; development journey</h2>
+                    <div class="groups">
+                        <div>
+                            <h3>Game development</h3>
+                            <ul>
+                                <li>Unity Engine &amp; C# Programming</li>
+                                <li>Gameplay Programming &amp; Systems</li>
+                                <li>Game Design &amp; Level/Encounter Design</li>
+                                <li>3D &amp; Mobile Game Development</li>
+                                <li>3D Modeling &amp; Rendering</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>Technical problem-solving</h3>
+                            <ul>
+                                <li>Debugging &amp; Resolving Unity Issues</li>
+                                <li>Performance &amp; 3D Environment Optimization</li>
+                                <li>Player Controls &amp; Gameplay Systems</li>
+                                <li>Testing &amp; Iterating Playable Builds</li>
+                            </ul>
+                        </div>
+                      <div>
+    <h3>Experience</h3>
+    <ul>
+        <li>Solo Developer: Hover Flux (Completed)</li>
+        <li>Solo Developer: Cores &amp; Scrap (In Dev)</li>
+         <li>Many single mechanics practiced and Prototype</li>
+        <li>Junior Unity Developer Internship (Certified)</li>
+        <li>Cross-platform deployment (Android, Browser, PC)</li>
+    </ul>
+</div>
+
+<div>
+    <h3>3D skills</h3>
+    <ul>
+        <li>Commercial restaurant interior design</li>
+        <li>Turning 2D concepts into 3D models</li>
+        <li>Clean topology and optimized polygon counts</li>
+    </ul>
+</div>
+                    </div>
+                </section>
+
+                <!-- COMMUNITY / CONTENT CREATION -->
+                <section id="community" class="panel" role="tabpanel" aria-labelledby="tab-community" tabindex="-1">
+                    <h2>Community &amp; content</h2>
+                    <p>Online, I share my game development journey as <b>Zoref</b>: devlogs, behind-the-scenes progress on Cores &amp; Scrap, and what I learn while building games in Unity.</p>
+                    <div class="contact-links">
+                        <!-- TODO: replace each placeholder href below with your real profile link -->
+                        <a href="https://www.youtube.com/@ZorefGameDev" target="_blank" rel="noopener">YouTube <span>Devlogs and gameplay videos</span></a>
+                        <a href="https://www.instagram.com/zoref.gamedev " target="_blank" rel="noopener">Instagram <span>Progress clips and behind the scenes</span></a>
+                        <a href="https://www.threads.net/@zoref.gamedev" target="_blank" rel="noopener">Threads <span>Updates and game dev thoughts</span></a>
+                    </div>
+                </section>
+
+                <!-- CONTACT -->
+                <section id="contact" class="panel" role="tabpanel" aria-labelledby="tab-contact" tabindex="-1">
+                    <h2>Let's connect</h2>
+                    <p>I am always open to discussing game development, technical challenges, or opportunities to grow as a professional developer.</p>
+                    <div class="contact-links">
+                        <!-- TODO: replace the placeholder email and GitHub links with your real ones -->
+                        <a href="mailto:ferozafzal889@gmail.com">Email <span>Send a message</span></a>
+                        <a href="https://github.com/ZorefDev/Zorefdev.github.io" target="_blank" rel="noopener">GitHub <span>Source and experiments</span></a>
+                        <a href="https://01-theory.itch.io/" target="_blank" rel="noopener">01 Theory on itch.io <span>Play the games</span></a>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- BOTTOM HUD BAR -->
+    <footer class="hud-bottom">
+        <div class="keys" aria-hidden="true">
+            <span><kbd>&uarr;</kbd><kbd>&darr;</kbd> Navigate</span>
+            <span><kbd>Enter</kbd> Open</span>
+            <span><kbd>Esc</kbd> Back to menu</span>
+        </div>
+        <span>&copy; 2026 Feroz Haider(Zoref) / 01 Theory</span>
+    </footer>
+</div>
+
+<!-- LIGHTBOX -->
+<dialog class="lightbox" id="lightbox" aria-label="Full size render">
+    <div class="lb-inner">
+        <img src="" alt="">
+        <div class="lb-bar">
+            <span class="lb-caption"></span>
+            <button type="button" class="lb-close">Close</button>
+        </div>
+    </div>
+</dialog>
+
+<script>
+(function () {
+    var root = document.documentElement;
+    root.classList.add('js');
+
+    var tabs = [].slice.call(document.querySelectorAll('.menu [role="tab"]'));
+    var panels = tabs.map(function (t) { return document.getElementById(t.getAttribute('aria-controls')); });
+    var current = 0;
+    var finePointer = window.matchMedia('(hover: hover) and (pointer: fine)');
+    var narrow = window.matchMedia('(max-width: 860px)');
+
+    function select(i, opts) {
+        opts = opts || {};
+        current = (i + tabs.length) % tabs.length;
+        tabs.forEach(function (t, k) {
+            var on = k === current;
+            t.setAttribute('aria-selected', on ? 'true' : 'false');
+            t.tabIndex = on ? 0 : -1;
+            panels[k].classList.toggle('is-active', on);
+        });
+        if (opts.focus) tabs[current].focus();
+        if (opts.hash !== false) {
+            try { history.replaceState(null, '', '#' + panels[current].id); } catch (e) {}
+        }
+    }
+
+    function enterPanel() {
+        var p = panels[current];
+        (p.querySelector('a') || p).focus();
+    }
+
+    tabs.forEach(function (tab, i) {
+        tab.addEventListener('click', function (e) {
+            e.preventDefault();
+            select(i);
+            if (narrow.matches) panels[i].scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+        tab.addEventListener('mouseenter', function () {
+            if (finePointer.matches && i !== current) select(i, { hash: false });
+        });
+        tab.addEventListener('keydown', function (e) {
+            switch (e.key) {
+                case 'ArrowDown': e.preventDefault(); select(i + 1, { focus: true }); break;
+                case 'ArrowUp':   e.preventDefault(); select(i - 1, { focus: true }); break;
+                case 'Home':      e.preventDefault(); select(0, { focus: true }); break;
+                case 'End':       e.preventDefault(); select(tabs.length - 1, { focus: true }); break;
+                case 'ArrowRight':
+                case 'Enter':
+                case ' ':         e.preventDefault(); select(i); enterPanel(); break;
+            }
+        });
+    });
+
+    panels.forEach(function (p) {
+        p.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' || e.key === 'ArrowLeft') {
+                e.preventDefault();
+                tabs[current].focus();
+            }
+        });
+    });
+
+    /* Arrow keys work from anywhere on the page, like a game menu */
+    document.addEventListener('keydown', function (e) {
+        if (e.target !== document.body && e.target !== root) return;
+        if (e.key === 'ArrowDown') { e.preventDefault(); select(current + 1, { focus: true }); }
+        if (e.key === 'ArrowUp')   { e.preventDefault(); select(current - 1, { focus: true }); }
+    });
+
+    /* Lightbox for 3D renders */
+    var box = document.getElementById('lightbox');
+    var boxImg = box.querySelector('img');
+    var boxCap = box.querySelector('.lb-caption');
+    [].slice.call(document.querySelectorAll('.shot')).forEach(function (shot) {
+        shot.addEventListener('click', function () {
+            var img = shot.querySelector('img');
+            if (!img || !img.naturalWidth || typeof box.showModal !== 'function') return;
+            boxImg.src = img.currentSrc || img.src;
+            boxImg.alt = img.alt;
+            boxCap.textContent = shot.getAttribute('data-caption') || img.alt;
+            box.showModal();
+        });
+    });
+    box.addEventListener('click', function (e) {
+        if (e.target === box || e.target.classList.contains('lb-close')) box.close();
+    });
+
+    /* Deep links: index.html#about (also used by the case-study page nav) */
+    function fromHash() {
+        var hash = location.hash.replace('#', '');
+        panels.forEach(function (p, k) { if (p.id === hash) select(k, { hash: false }); });
+    }
+    window.addEventListener('hashchange', fromHash);
+    fromHash();
+})();
+</script>
+</body>
+</html>
